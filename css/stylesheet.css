@@ -33,7 +33,7 @@ body {
     padding: 15px;
     border-radius: 10px;
 
-    /* aligns text (and anything else) in the middle of the box */
+    /* for the text */
     display: flex;
     flex-direction: column;
     justify-content: center;
