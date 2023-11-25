@@ -16,6 +16,13 @@ body {
     background-color: rgb(245, 240, 167);
 }
 
+.wrap {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .box {
     background-color: rgb(255, 255, 255);
     min-width: 200px;
