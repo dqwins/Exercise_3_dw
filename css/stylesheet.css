@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 240, 167);
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    min-width: 200px;
+    min-height: 100px;
+    width: 8vw;
+    height: 8vw;
+    margin: 1vw;
+    padding: 15px;
+    border-radius: 10px;
+
+    /* aligns text (and anything else) in the middle of the box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hair1 {
+    background-image: url("../images/Hair-1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.hair2 {
+    background-image: url("../images/Hair-2.png");
+    background-size: cover;
+    background-position: center;
+}
