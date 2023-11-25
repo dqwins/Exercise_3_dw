@@ -24,7 +24,7 @@ body {
 }
 
 .box {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(69, 69, 69);
     min-width: 200px;
     min-height: 100px;
     width: 8vw;
@@ -44,11 +44,29 @@ body {
 .hair1 {
     background-image: url("../images/Hair-1.png");
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .hair2 {
     background-image: url("../images/Hair-2.png");
     background-size: cover;
-    background-position: center;
+    background-position: top;
+}
+
+.hair3 {
+    background-image: url("../images/Hair-3.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.hair4 {
+    background-image: url("../images/Hair-4.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.hair5 {
+    background-image: url("../images/Hair-5.png");
+    background-size: cover;
+    background-position: top;
 }
